@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+		
+}
+/*--------verticalBlocks----*/
+.square1,
+.square2,
+.square3,
+.square-1,
+.square-2,
+.square-3,
+.square-1-1,
+.square-2-2,
+.square-3-3 {
+	width: 100px;	
+	height: 100px;	
+	line-height: 100px;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align:middle;
+
+}
+
+.square1, .square-1, .square-1-1{
+	background: #ff3d00;
+}
+
+.square2, .square-2, .square-2-2{
+	background: #0772a1;
+}
+
+.square3, .square-3, .square-3-3{
+	background: #14d100;
+	
+}
+
+
+/*--------changeDirection----*/
+
+.wrapper{
+	position: relative;
+	width: 100px;
+	height: 300px;
+}
+
+.square-1{
+
+
+	position: absolute;
+	background: #ff3d00;
+	top:66.66%;
+}
+
+.square-2{
+	position: absolute;
+	background: #0772a1;
+	top:33.33%;
+}
+
+.square-3{
+	background: #14d100;
+	position: absolute;
+	top:0%;
+
+}
+
+/*--------horizontal----*/
+
+.square-1-1, .square-2-2, .square-3-3 {
+	float: left;
+}
+
+
